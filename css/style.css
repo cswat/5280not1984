@@ -1,18 +1,23 @@
+* {
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+}
+
 body {
-    background-color: gray;
-    font-family: 'Oswald', sans-serif;
+    background-color: rgb(149, 147, 148);
 }
 
 .banner-image {
-    display: block;
     height: auto;
     max-width: 100%;
-    text-align: center;
     width: 100%;
+    margin-top: 35px;
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 h2 {
@@ -21,7 +26,6 @@ h2 {
 
 .nav ul {
     list-style: none;
-    text-align: center;
     padding: 0;
     margin: 0;
 }
