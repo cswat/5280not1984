@@ -7,22 +7,8 @@
 
 body {
     background-color: rgba(245, 245, 245, 0.26);
-}
-
-/*regulates the banner image at the top of the page*/
-.banner-image {
-    height: auto;
-    max-width: 100%;
-    width: 100%;
-    margin-top: 35px;
-}
-
-h1 {
-    font-size: 2.5vw;
-}
-
-h2 {
-    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav ul {
@@ -39,34 +25,20 @@ h2 {
 
 /*--Navigation menu START--*/
 .nav li {
-    font-size: 1.5vw;
-    line-height: 40px;
     height: 40px;
     display: inline-block;
     margin-right: 4px;
 }
    
 .nav a {
-    color: black;
     display: block;
-    transition: .3s color;
-}
-   
-.nav a:hover {
-    color: red;
 }
 
 /*--Navigation menu END--*/
 
-p {
-    font-size: 1.5vw;
-    margin: 25px;
-}
-
 /*--Accordion START--*/
 details {
     overflow: hidden;
-    margin-top: 0.125em;
     border: 1px solid #dddddd;
     background: #ffffff;
     color: #333333;
@@ -89,8 +61,8 @@ details {
   }
   
   details[open] summary {
-    border: 1px solid #003eff;
-    background: #007fff;
+    border: 1px solid #29476C;
+    background: #29476C;
     color: #ffffff;
   }
   
@@ -102,7 +74,82 @@ details {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 80%;
 }
 
 /*--Accordion END--*/
+
+.m-1 {
+    margin: 1rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mb-4 {
+    margin-bottom: 3rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+
+
+.p-3 {
+    padding: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.max-page-width {
+    max-width: 920px;
+}
+
+.link-color {
+    color: #FFE9A3;
+}
+
+.primary-text-color {
+    color: #245999;
+}
+
+.primary-background {
+    background: #29476C;
+}
+
+.colored-background {
+    color: hsl(0, 0%, 96%);
+    text-shadow: 1px 1px 1px black;
+}
+
+.text-start {
+    text-align: start;
+}
+
+del {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+td {
+    padding-right: 2rem;
+}

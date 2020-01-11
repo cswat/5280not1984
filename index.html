@@ -1,241 +1,297 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="The official site for the Denver municipal ballot initiative to ban facial surveillance recognition">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Ban Facial Recognition in Denver</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="The official site for the Denver municipal ballot initiative to ban facial surveillance recognition">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="css/style.css"> 
-        <script type="text/javascript" src="js/app.js"></script>
-    </head>
-    <body>
-        <!--commenting this out until I get a banner image
-            <div class="banner-image">
-                <a href="index.html">
-                    <img src="img/banner-image.png" alt="5280 not 1984">
-                </a>
-            </div>
-        -->
-            <h1>Ban facial recognition surveillance in Denver</h1>
-            <p><i>SHALL THE CITY AND COUNTY OF DENVER ADOPT A BAN ON THE USAGE OF FACIAL 
-                RECOGNITION SURVEILLANCE TECHNOLOGY FOR THE PURPOSES OF LAW ENFORCEMENT</i></p>
-                <div class="nav">
-                    <ul>
-                        <li>
-                            <a href='#about'>About</a>
-                        </li>
-                        <li>
-                            <a href='#progress'>Progress tracking</a>
-                        </li>
-                        <li>
-                            <a href='#learn'>Learn more</a>
-                        </li>
-                        <li>
-                            <a href='#contribute'>Get involved</a>
-                        </li>
-                        <li>
-                            <a href='#contact'>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="description">
-                    <h2>Facial recognition is biased, ineffective, and vulnerable.</h2>
-                    <p>Facial recognition surveillance programs exhibit <a href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212">
-                         gender and racial biases</a>, 
-                        which lead to deportation, harassment, and wrongful imprisonment. 
-                    </br>
-                    </br>
-                        Facial recognition surveillance programs carry a <a href="https://www.cnet.com/news/facial-recognition-software-inaccurate-in-98-of-metropolitan-police-cases-reports/">
-                        high rate of false-positive identifications.</a>
-                    </br>
-                    </br>
-                        Facial recognition surveillance programs collect and store biometric data, creating an appetizing
-                        target for <a href="https://www.wired.com/story/hackers-stole-traveler-photos-border-agency-database/">
-                            identity thieves and state-sponsored hackers. </a>
-                    </p>
-                    <p>Facial recognition programs have no place in Denver.</p>
-                </div>
-                <hr>
-                <div id='about'>
-                    <h2>About this initiative</h2>
-                    <h3>The goal</h3>
-                    <p>The goal of this iniative is to have the question of municipal use of
-                         facial recognition technologies put to Denver voters on the November 2020 ballot.
-                    </p>
-                    <h3>The ordinance</h3>
-                    <p>The language used in the proposed ordinance can be found <a href="files/Petition for initiated ordinance - facial recognition 2019.09.15.pdf">at this link</a>.</p>
-                    </p>
-                </div>
-                <hr>
-                <div id='progress'>
-                        <h2>Progress tracking</h2>
-                        <p>The 
-                            <a href="https://www.denvergov.org/content/denvergov/en/denver-elections-divison/campaign-information/initiated-ordinance-process.html">
-                                initiated ordinance process in Denver</a> outlines 7 steps to list a ballot measure.
-                            These steps, and their respective statuses, will be listed below.
-                        </p>
-                        <table class="milestones">
-                            <tr>
-                                <th>Milestone</th>
-                                <th>Status</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <del>Submit proposed ordinance to City Council</del>
-                                </td>
-                                <td><b>Completed 8/27/19</b></td>
-                            </tr>
-                            <tr>
-                                <td><del>Attend a review and comment hearing</del></td>
-                                <td><b>Attended 9/11/19, ordinance revised</b></td>
-                            </tr>
-                            <tr>
-                                <td>Submit petition materials to elections division</td>
-                                <td>Pending</td>
-                            </tr>
-                            <tr>
-                                <td>Elections Division review</td>
-                                <td>Pending</td>
-                            </tr>
-                            <tr>
-                                <td>Circulate petitions</td>
-                                <td>
-                                    <meter id="signatures"
-                                    min="0" max="8265"
-                                    value="0" alt="Signature count: 0/8,265"></meter> <i>0 / 8,265 signatures</i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>File completed petitions</td>
-                                <td>Due 180 days after circulation begins</td>
-                            </tr>
-                            <tr>
-                                <td>Elections Division determines petition sufficiency</td>
-                                <td>Pending</td>
-                            </tr>
-                        </table>
-                </div>
-                <hr>
-                <div id='learn'>
-                    <h2>Questions asked and answered</h2>
-                    <div class="FAQ">
-                        <details>
-                            <summary>What is facial recognition surveillance?</summary>
-                            Facial surveillance recognition is a technology that scans people in a video feed and uses an 
-                            algorithm to compare still images to those in a reference database or on a watch list. 
-                            The list of users includes the larger agencies like the FBI, NSA, and NYPD, but many local police 
-                            forces are developing or integrating their own systems as well. It’s a wide-reaching network: 
-                            In 2016, one in two American adults were in a law enforcement face recognition network. <br><br>
-                            In the ballot title, found <a href="files/Petition for initiated ordinance - facial recognition 2019.09.15.pdf">here</a>, 
-                            it is simply defined as: <i>an automated or semi-automated process that assists in identifying or verifying an individual, 
-                            based on the physical characteristics of an individual’s face.</i>
+  <title>Ban Facial Recognition in Denver</title>
 
-                        </details>
-                        <details>
-                                <summary>Why ban facial recognition?</summary>
-                                In addition to the fundamental notion of government-ordained facial tracking being distasteful, 
-                                the technology itself isn’t very effective. The facial surveillance recognition systems of today have a 
-                                worryingly high rate of false positives, instances where a match is detected but turns out to be wrong. 
-                                In London, the Metro Police have reported that <a href="https://www.independent.co.uk/news/uk/home-news/met-police-facial-recognition-success-south-wales-trial-home-office-false-positive-a8345036.html">
-                                98% of the matches in their trial software were inaccurate.</a> </br></br>
-                                Additionally, false positives are not evenly distributed among the population. MIT and Stanford researchers presented a 
-                                paper last year stating that facial-analysis programs demonstrate both skin-type and gender biases. 
-                                That’s because this technology relies on neural nets to analyze a library of faces and generate facial distinction points. 
-                                The datasets most of these systems rely on overrepresent lighter-skinned men which means when a non-model individual is processed through 
-                                the algorithm, they’re compared against fewer distinction points which leads to a higher rate of false positives and increases the 
-                                risk of systemic abuse among these populations.
- 
-                        </details>
-                        <details>
-                                <summary>Do the police need facial recognition to do their jobs?</summary>
-                                It is not the intent of this ordinance to disrespect law enforcement agents. The job they do is often difficult and thankless 
-                                and making their jobs easier should be a priority. Facial surveillance recognition does not make the lives of
-                                 police easier. It’s an expensive system to integrate, it’s vulnerable, it’s open to abuse, but most of all
-                                  it’s largely ineffective at its stated purpose. That may not be the case in 10 years, but it is the case now.
-                        </details>
-                        <details>
-                                <summary>What are the negative effects of such a ban?</summary>
-                                It is the intent of this initiative to prevent the Denver municipal government from utilizing facial recognition software or
-                                information gathered from facial recognition software from any source. This would mean that city officials at Denver International Airport ("DIA"),
-                                which is operated by the city's Department of Aviation, would be prohibited from legally using information obtained from federal partners, like 
-                                the Transportation Security Administration ("TSA"), Federal Bureau of Investigation ("FBI"), and Customs and Border Protection ("CBP"). <br><br>
-                                Additionally, this would prevent the use of such technologies in civillian agencies, like Denver's Motor Vehicle Division, which might utilize 
-                                such a system in their driver's license database.
-                        </details>
-                        <details>
-                            <summary>Has a ban like this been effected anywhere else?</summary>
-                            Yes, San Francisco, Oakland, and Somerville in Massachusetts have already passed local 
-                            ordinances banning facial recognition. Denver would be the fourth city nationwide to implement such a prohibition. 
-                        </details>
-                        <details>
-                                <summary>Would private entities be affected by this ordinance?</summary>
-                                It is not the intent of this ordinance to interfere with a private entity’s development or usage of this technology.
-                                 However, under the proposed ordinance, the Department of Aviation, and any other municipal agent in the City and County of Denver,
-                                  would be prohibited from utilizing information obtained from a system if it qualifies as facial recognition surveillance.
-                        </details>
-                        <details>
-                                <summary>Are there any exemptions?</summary>
-                                The only exemption listed in the ordinance text is the use of such a system for the purpose of redacting a recording
-                                for release or disclosure to protect the privacy of a subject depicted in the recording.
-                        </details>
-                        <details>
-                                <summary>How would this be enforced?</summary>
-                                Any violation of this Ordinance constitutes an injury and any person may institute proceedings for injunctive relief, 
-                                declaratory relief, or writ of mandate in any court of competent jurisdiction to enforce this Ordinance. 
-                                An action instituted under this paragraph shall be brought against Denver and, if necessary to effectuate compliance with this Ordinance, 
-                                any other governmental agency with possession, custody, or control of data subject to this Ordinance.
-                        </details>
-                        <details>
-                                <summary>A ban is very absolute; why not impose regulations around facial recognition?</summary>
-                                A wider ban allows any infringement upon the ban, for good or otherwise, to be accessible to the public. If Denver's city council elects
-                                to repeal all or part of the ban, the general population would be able to react in an appropriate and timely manner. Lighter regulations 
-                                do not provide such a signalling mechanism and could even be used to expand a facial recognition dragnet.
-                        </details>
-                        <details>
-                                <summary>Is the ordinance's definition of facial recognition too broad?</summary>
-                                The definition of “facial recognition surveillance” is any automated or semi-automated process that
-                                 assists in identifying or verifying an individual, based on the physical characteristics of an individual’s face.
-                                  There is no reason to believe that any reasonable body or person would, based on that definition, interpret more
-                                   mundane video surveillance systems, like CCTV, as a form of facial recognition surveillance.
-                        </details>
-                        <details>
-                                <summary>Would Denver be able to partner with other groups that use facial recognition?</summary>
-                                The intent of the proposed ordinance is not to limit Denver’s ability to share legally-obtained evidence or identifying 
-                                information with other law enforcement bodies. However, if that evidence comes from a source classified as a facial recognition surveillance system
-                                then it would not be exempt from the ordinance's prohibition.
-                        </details>
-                        <details>
-                                <summary>Does this ordinance prohibit police search warrants utilizing facial data from social media?</summary>
-                                Yes. Obtaining social media facial data as part of a search warrant would not be restricted but using it towards securing an arrest or charging an
-                                individual with crimes would be prohibited.
-                        </details>
-                        <details>
-                                <summary>If this passes, could I still use a Ring or other video security system?</summary>
-                                Personal home security devices would not be subject to this ordinance. However, municipal law enforcement agencies would only be able to utilize
-                                such data if it did not meet the definition of a facial recognition surveillance system.
-                        </details>
-                    </div>
-                </div>
-                <hr>
-                <div id='contribute'>
-                    <h2>Ways to contribute</h2>
-                    <h3>Denver residents:</h3>
-                    <p>We need evangelists, petitioners, and, above all, signatures. Use the form
-                        below to identify how you wish to contribute.
-                    </p>
-                    <h3>Outside of Denver?</h3>
-                    <p>You still have the power to help. Click on the map below to see what's happening near you
-                        and learn how you can contribute.
-                    </p>
-                    <iframe class=fight-for-future src="https://www.banfacialrecognition.com/map/?embed=true" 
-                    style="width:50%;height:400px;overflow:hidden;border:none"></iframe>
-                </div> 
-                <hr> 
-                <div id='contact'>
-                    <h2>Contact us</h2>
-                    <p>The owner of this page may be reached at 5280not1984@gmail.com</p>
-                </div>
-    </body>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+  <div>
+      <a href="index.html">
+          <img src="img/banner-image.png" width='500' height='250' 
+          style="
+          display: block;
+          margin-left: auto;
+          margin-right: auto;" 
+          alt="5280 not 1984">
+      </a>
+  </div>
+
+
+  <div class="p-3 mb-4">
+    <div class="max-page-width ml-auto mr-auto">
+      <h1 class="primary-text-color">Ban facial recognition surveillance in Denver</h1>
+      <p>
+        <em>
+          Shall the voters of the City and County of Denver adopt an ordinance that bans the City from using any facial recognition surveillance system and from 
+          using data derived from such a system in certain proceedings, and, in connection, allows a person to initiate a legal proceeding to enforce the ordinance?
+        </em>
+      </p>
+      <div class="nav">
+        <ul>
+          <li>
+            <a href='#about'>About</a>
+          </li>
+          <li>
+            <a href='#progress'>Progress tracking</a>
+          </li>
+          <li>
+            <a href='#learn'>Learn more</a>
+          </li>
+          <li>
+            <a href='#contribute'>Get involved</a>
+          </li>
+          <li>
+            <a href='#contact'>Contact</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </div>
+  <div class="colored-background primary-background p-3">
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>Biased, ineffective, and vulnerable</h2>
+      <p>Facial recognition surveillance programs exhibit <a class="link-color"
+          href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212">
+          gender and racial biases</a>,
+        which lead to deportation, harassment, and wrongful imprisonment.
+        </br>
+        </br>
+        Facial recognition surveillance programs carry a <a class="link-color"
+          href="https://www.cnet.com/news/facial-recognition-software-inaccurate-in-98-of-metropolitan-police-cases-reports/">
+          high rate of false-positive identifications.</a>
+        </br>
+        </br>
+        Facial recognition surveillance programs collect and store biometric data, creating an appetizing
+        target for <a class="link-color" href="https://www.wired.com/story/hackers-stole-traveler-photos-border-agency-database/">
+          identity thieves and state-sponsored hackers. </a>
+      </p>
+      <p>Facial recognition surveillance programs have no place in Denver.</p>
+    </div>
+  </div>
+  <div class="mb-4 p-3" id='about'>
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>About this initiative</h2>
+      <h3 class="mb-0">The goal</h3>
+      <p class="mt-0">The aim of this initiative is to put the question of municipal use of
+        facial recognition technologies to Denver voters on the November 2020 ballot.
+      </p>
+      <h3 class="mb-0">The ordinance</h3>
+      <p class="mt-0">The language used in the proposed ordinance can be found <a
+          href="files/Petition for initiated ordinance - facial recognition 2019.11.05.pdf">at this link</a>.</p>
+      </p>
+    </div>
+  </div>
+  <div class="p-3 primary-background colored-background" id='progress'>
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>Progress tracking</h2>
+      <p>The
+        <a class="link-color"
+          href="https://www.denvergov.org/content/denvergov/en/denver-elections-divison/campaign-information/initiated-ordinance-process.html">
+          initiated ordinance process in Denver</a> outlines 7 steps to list a ballot measure.
+        These steps, and their respective statuses, will be listed below.
+      </p>
+      <table class="milestones">
+        <tr>
+          <th>Milestone</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td class="text-start">
+            <del>Submit proposed ordinance to City Council</del>
+          </td>
+          <td class="text-start"><b>Completed 8/27/19</b></td>
+        </tr>
+        <tr>
+          <td class="text-start"><del>Attend a review and comment hearing</del></td>
+          <td class="text-start"><b>Attended 9/11/19, ordinance revised</b></td>
+        </tr>
+        <tr>
+          <td class="text-start"><del>Submit petition materials to elections division</del></td>
+          <td class="text-start"><b>Submitted 10/16/19</b></td>
+        </tr>
+        <tr>
+          <td class="text-start"><del>Elections Division review</del></td>
+          <td class="text-start"><b>Final draft approved 11/06/19</b></td>
+        </tr>
+        <tr>
+          <td class="text-start">Circulate petitions</td>
+          <td class="text-start">
+            <meter id="signatures" min="0" max="8265" value="1125" alt="Signature count: 1,125/8,265"></meter> <i>1,125 / 8,265
+              signatures</i>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-start">File completed petitions</td>
+          <td class="text-start">Due May 4th</td>
+        </tr>
+        <tr>
+          <td class="text-start">Elections Division determines petition sufficiency</td>
+          <td class="text-start">Pending</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="mb-4 p-3" id='learn'>
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>Questions asked and answered</h2>
+      <div class="FAQ d-flex flex-column">
+        <details>
+          <summary>What is facial recognition surveillance?</summary>
+          <p class="m-1">Facial surveillance recognition is a technology that scans people in a video feed and uses an
+          algorithm to compare still images to those in a reference database or on a watch list.
+          The list of users includes the larger agencies like the FBI, NSA, and NYPD, but many local police
+          forces are developing or integrating their own systems as well. It’s a wide-reaching network:
+          In 2016, one in two American adults were in a law enforcement face recognition network. <br><br>
+          In the ballot title, found <a
+            href="files/Petition for initiated ordinance - facial recognition 2019.09.15.pdf">here</a>,
+          it is simply defined as: <i>an automated or semi-automated process that assists in identifying or verifying an
+            individual,
+            based on the physical characteristics of an individual’s face.</i></p>
+
+        </details>
+        <details class="mt-1">
+          <summary>Why ban facial recognition?</summary>
+          <p class="m-1">In addition to the fundamental notion of government-ordained facial tracking being distasteful,
+          the technology itself isn’t very effective. The facial surveillance recognition systems of today have a
+          worryingly high rate of false positives, instances where a match is detected but turns out to be wrong.
+          In London, the Metro Police have reported that <a
+            href="https://www.independent.co.uk/news/uk/home-news/met-police-facial-recognition-success-south-wales-trial-home-office-false-positive-a8345036.html">
+            98% of the matches in their trial software were inaccurate.</a> </br></br>
+          Additionally, false positives are not evenly distributed among the population. MIT and Stanford researchers
+          presented a
+          paper last year stating that facial-analysis programs demonstrate both skin-type and gender biases.
+          That’s because this technology relies on neural nets to analyze a library of faces and generate facial
+          distinction points.
+          The datasets most of these systems rely on overrepresent lighter-skinned men which means when a non-model
+          individual is processed through
+          the algorithm, they’re compared against fewer distinction points which leads to a higher rate of false positives
+          and increases the
+          risk of systemic abuse among these populations.</p>
+
+        </details>
+        <details class="mt-1">
+          <summary>Do the police need facial recognition to do their jobs?</summary>
+          <p class="m-1">It is not the intent of this ordinance to disrespect law enforcement agents. The job they do is often difficult
+          and thankless
+          and making their jobs easier should be a priority. Facial surveillance recognition does not make the lives of
+          police easier. It’s an expensive system to integrate, it’s vulnerable, it’s open to abuse, but most of all
+          it’s largely ineffective at its stated purpose. That may not be the case in 10 years, but it is the case now.</p>
+        </details>
+        <details class="mt-1">
+          <summary>What are the negative effects of such a ban?</summary>
+          <p class="m-1">It is the intent of this initiative to prevent the Denver municipal government from utilizing facial recognition
+          software or
+          information gathered from facial recognition software from any source. This would mean that city officials at
+          Denver International Airport ("DIA"),
+          which is operated by the city's Department of Aviation, would be prohibited from legally using information
+          obtained from federal partners, like
+          the Transportation Security Administration ("TSA"), Federal Bureau of Investigation ("FBI"), and Customs and
+          Border Protection ("CBP"). <br><br>
+          Additionally, this would prevent the use of such technologies in civillian agencies, like Denver's Motor Vehicle
+          Division, which might utilize
+          such a system in their driver's license database.</p>
+        </details>
+        <details class="mt-1">
+          <summary>Has a ban like this been effected anywhere else?</summary>
+          <p class="m-1">Yes, San Francisco, Oakland, and Somerville in Massachusetts have already passed local
+          ordinances banning facial recognition. Denver would be the fourth city nationwide to implement such a
+          prohibition.</p>
+        </details>
+        <details class="mt-1">
+          <summary>Would private entities be affected by this ordinance?</summary>
+          <p class="m-1">It is not the intent of this ordinance to interfere with a private entity’s development or usage of this
+          technology.
+          However, under the proposed ordinance, the Department of Aviation, and any other municipal agent in the City and
+          County of Denver,
+          would be prohibited from utilizing information obtained from a system if it qualifies as facial recognition
+          surveillance.</p>
+        </details>
+        <details class="mt-1">
+          <summary>Are there any exemptions?</summary>
+          <p class="m-1">The only exemption listed in the ordinance text is the use of such a system for the purpose of redacting a
+          recording
+          for release or disclosure to protect the privacy of a subject depicted in the recording.</p>
+        </details>
+        <details class="mt-1">
+          <summary>How would this be enforced?</summary>
+          <p class="m-1">Any violation of this Ordinance constitutes an injury and any person may institute proceedings for injunctive
+          relief,
+          declaratory relief, or writ of mandate in any court of competent jurisdiction to enforce this Ordinance.
+          An action instituted under this paragraph shall be brought against Denver and, if necessary to effectuate
+          compliance with this Ordinance,
+          any other governmental agency with possession, custody, or control of data subject to this Ordinance.</p>
+        </details>
+        <details class="mt-1">
+          <summary>A ban is very absolute; why not impose regulations around facial recognition?</summary>
+          <p class="m-1">A wider ban allows any infringement upon the ban, for good or otherwise, to be accessible to the public. If
+          Denver's city council elects
+          to repeal all or part of the ban, the general population would be able to react in an appropriate and timely
+          manner. Lighter regulations
+          do not provide such a signalling mechanism and could even be used to expand a facial recognition dragnet.</p>
+        </details>
+        <details class="mt-1">
+          <summary>Is the ordinance's definition of facial recognition too broad?</summary>
+          <p class="m-1">The definition of “facial recognition surveillance” is any automated or semi-automated process that
+          assists in identifying or verifying an individual, based on the physical characteristics of an individual’s
+          face.
+          There is no reason to believe that any reasonable body or person would, based on that definition, interpret more
+          mundane video surveillance systems, like CCTV, as a form of facial recognition surveillance.</p>
+        </details>
+        <details class="mt-1">
+          <summary>Would Denver be able to partner with other groups that use facial recognition?</summary>
+          <p class="m-1">The intent of the proposed ordinance is not to limit Denver’s ability to share legally-obtained evidence or
+          identifying
+          information with other law enforcement bodies. However, if that evidence comes from a source classified as a
+          facial recognition surveillance system
+          then it would not be exempt from the ordinance's prohibition. </p>
+        </details>
+        <details class="mt-1">
+          <summary>Does this ordinance prohibit police search warrants utilizing facial data from social media?</summary>
+          <p class="m-1">Yes. Obtaining social media facial data as part of a search warrant would not be restricted but using it towards
+          securing an arrest or charging an
+          individual with crimes would be prohibited.</p>
+        </details>
+        <details class="mt-1">
+          <summary>If this passes, could I still use a Ring or other video security system?</summary>
+          <p class="m-1">Personal home security devices would not be subject to this ordinance. However, municipal law enforcement
+          agencies would only be able to utilize
+          such data if it did not meet the definition of a facial recognition surveillance system.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="p-3 colored-background primary-background" id='contribute'>
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>Ways to contribute</h2>
+      <h3 class="mb-0">Denver residents:</h3>
+      <p class="m-1">We need evangelists, petitioners, and, above all, signatures. The initiative is also accepting <a class="link-color" href="https://paypal.me/pools/c/8k8wD9ii89">
+        monetary contributions</a> via PayPal to help pay for marketing materials and any petitioner/tabling fees for local events. 
+        Use the form below to identify how you wish to contribute.
+      </p>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd84v-Z59CcBjm5X2QFVxrd_xOSeZs_Q8u1_rJGWMxrObyCiw/viewform?embedded=true"
+        height="600" width="85%" frameborder="0" class='form' marginheight="0" marginwidth="0">Loading…</iframe>
+      <h3>Outside of Denver?</h3>
+      <p>You still have the power to help. Click on the map below to see what's happening near you
+        and learn how you can contribute.
+      </p>
+      <iframe class=fight-for-future src="https://www.banfacialrecognition.com/map/?embed=true"
+        style="width:85%;height:400px;overflow:hidden;border:none"></iframe>
+    </div>
+  </div>
+  <div class="p-3" id='contact'>
+    <div class="max-page-width ml-auto mr-auto">
+      <h2>Contact us</h2>
+      <p>The owner of this page may be reached at <a href="mailto:5280not1984@gmail.com">5280not1984@gmail.com</a></p>
+    </div>
+  </div>
+</body>
