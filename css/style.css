@@ -151,5 +151,14 @@ del {
 }
 
 td {
-    padding-right: 2rem;
+    padding-right: 0.5rem;
+    height: 65px;
+}
+
+tr {
+    margin-bottom: 1rem;
+}
+
+meter {
+    width: 100%;
 }
